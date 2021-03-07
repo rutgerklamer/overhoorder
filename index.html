@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>De overhoorder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="./style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116986041-1"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'UA-116986041-1');
+
+</script>
+</head>
+
+<body>
+<div class="main">
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  Niet/nog niet beschikbaar.
+</div>
+  <a>De overhoorder</a>
+  <div class="questionContainer">
+    <p>Hier kan je jezelf overhoren voor de opleiding social work, NHL-Stenden. Beantwoord je vraag in gedachten en vergelijk deze met het correcte antwoord.
+    Op het einde krijg je een lijst met je goede & foute antwoorden.
+    Sommige vakken zijn niet/nog niet beschikbaar.</p><br>
+    <h1> Periode 3:</h1>
+    <button class='button' onclick='loadTest("rechten")'>Rechten 'toets'</button> <button class='button' onclick='loadList("rechten")'>Rechten begrippen</button><br>
+    <button class='button' onclick='loadTest("politicologie")'>Politicologie 'toets'</button> <button class='button' onclick='loadList("politicologie")'>Politicologie begrippen</button><br>
+    <button class='button' onclick='loadTest("sociologie")'>Sociologie 'toets'</button>    <button class='button' onclick='loadList("sociologie")'>Sociologie begrippen</button><br>
+    <button class='button' onclick='loadTest("digitale")'>Digitale samenleving 'toets'</button>    <button class='button' onclick='loadList("digitale")'>Digitale samenleving begrippen</button><br>
+  </div>
+
+
+</div>
+
+
+<script src="./main.js"></script>
+
+</body>
+</html>
